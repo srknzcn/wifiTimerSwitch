@@ -7,7 +7,7 @@ const char* password = "SSID_PASSWORD";
 
 int buttonState = 0;
 int relayPin = 2; // GPIO13
-int ledPin = 5;
+int ledPin = 5; // status led pin
 WiFiServer server(80);
 
 IPAddress ip(192, 168, 0, 111); 
